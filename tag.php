@@ -22,10 +22,10 @@ try {
 try {
     if ( isset($tag) ) {
       if ( isset($next_max_id) ) {
-        $feeds = $i->tagFeed($tag, $next_max_id);
+        $feeds = $i->getHashtagFeed($tag, $next_max_id);
         echo json_encode($feeds);
       } else {
-        $feeds = $i->tagFeed($tag);
+        $feeds = $i->getHashtagFeed($tag);
         echo json_encode($feeds);
       }
     }

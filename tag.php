@@ -1,8 +1,10 @@
 <?php
 
 require 'src/Instagram.php';
-
-$username = 'potterj412';
+// brian.khoidoan / abcd1234
+// $username = 'potterj412';
+// $password = 'abcd1234';
+$username = 'brian.khoidoan';
 $password = 'abcd1234';
 $debug = false;
 $tag = $_GET["tag"];

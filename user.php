@@ -22,7 +22,7 @@ try {
 
 try {
     if ( isset($user) ) {
-      $feeds = $i->getUsernameInfo($user, $next_max_id);
+      $feeds = $i->getUsernameInfo($user);
       echo json_encode($feeds);
     }
 

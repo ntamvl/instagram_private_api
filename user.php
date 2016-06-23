@@ -7,7 +7,7 @@ require 'src/Instagram.php';
 $username = 'brian.khoidoan';
 $password = 'abcd1234';
 $debug = false;
-$user = $_GET["username"];
+$user_id = $_GET["user_id"];
 
 $i = new Instagram($username, $password, $debug);
 
@@ -21,8 +21,8 @@ try {
 }
 
 try {
-    if ( isset($user) ) {
-      $feeds = $i->getUsernameInfo($user);
+    if ( isset($user_id) ) {
+      $feeds = $i->getUsernameInfo($user_id);
       echo json_encode($feeds);
     }
 

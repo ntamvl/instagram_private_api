@@ -1,8 +1,8 @@
 <?php
 
 require 'src/Instagram.php';
-$username = 'khoanko';
-$password = 'babeboo';
+$username = 'gahong2527';
+$password = 'matkhaudongian';
 $debug = false;
 $user_id = $_GET["user_id"];
 

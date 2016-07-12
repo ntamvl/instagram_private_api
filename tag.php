@@ -1,8 +1,8 @@
 <?php
 
 require 'src/Instagram.php';
-$username = 'khoanko';
-$password = 'babeboo';
+$username = 'gahong2527';
+$password = 'matkhaudongian';
 $debug = false;
 $tag = $_GET["tag"];
 $next_max_id = $_GET["next_max_id"];
